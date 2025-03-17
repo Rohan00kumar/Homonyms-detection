@@ -9,6 +9,7 @@ This project is a **hybrid recommender system** that combines content-based and 
 
 ## 🚀 **How It Works**  
 ### 1. **Data Preprocessing**  
+- First Run is `homonymsV1.ipynb` then `homonymsV2.ipynb` it will be prepare clean dataset then loaded from `data.csv`.  
 - Data is loaded from `data.csv`.  
 - Metadata (title, genre, tags) is combined and vectorized using **TF-IDF** (Term Frequency-Inverse Document Frequency).  
 - Vectorized data is used for clustering.  
@@ -90,8 +91,12 @@ pip install pandas scikit-learn
 ```
 2. Run the script:  
 ```bash
-python recommender.py
+python app.py
 ```
-3. Enter a movie name and get recommendations!  
+3. Alternative Run the script:  
+```bash
+python main.py
+```
+4. Enter a movie name and get recommendations!  
 
 ---
