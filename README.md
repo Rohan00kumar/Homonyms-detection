@@ -11,6 +11,15 @@ The goal of this project is to build a **Hybrid Movie Recommendation System** th
 
 ---
 
+## 👨‍💻 **How To Run It**  
+This Is a Little bit time-consuming because the model and dataset size will be large so you can follow the step-by-step procedure :
+1. Firstly download this repository
+2. Then use Three datasets which is movies, tags and rating run the `homonymsV2` that will generate `data.csv`
+3. After That run `homonymsV3` that will be generate `cleaned_data`
+4. Then run the `final.ipynb` and it will show your result.
+
+---
+
 ## 📂 **Dataset Description**  
 The dataset includes the following attributes:  
 
